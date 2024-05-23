@@ -1,0 +1,37 @@
+footer{
+    .container{
+        max-width: 1200px;
+            justify-content: space-between;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            @media only screen and (max-width:1119px){
+                padding: 0 5%;
+            }
+            .footer-top{
+                display: flex;
+                .left{
+                    ul{
+                        display: flex;
+                        gap: 2rem;
+                        li{
+                            list-style-type: none;
+                        }
+                    }
+                }
+                .right{
+                    .icons{
+                        display: flex;
+                    flex-direction: row;
+                    gap: 2rem;
+                    }
+                }
+            }
+           .footer-bottom{
+            div{
+                display: flex;
+                
+            }
+           }
+    }
+}
